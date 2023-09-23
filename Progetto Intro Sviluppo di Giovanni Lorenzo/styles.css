@@ -32,11 +32,12 @@ header{
     width: 700px;
 }
 
-#text-main{
+.header-text{
     font-size: 100px;
     font-family: 'Ubuntu', sans-serif;
     color: #ff0000;
     text-shadow: 3px 3px #ff0000;
+    text-align: end;
 }
 
 #paragraph-main1{
@@ -72,5 +73,13 @@ header{
 @media only screen and (max-width: 992px) {
     .img-course{
         width: 400px;
+    }
+    .header-text{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    #paragraph-main1{
+        font-size: 27px;
     }
 }
