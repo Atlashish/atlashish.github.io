@@ -82,4 +82,8 @@ header{
     #paragraph-main1{
         font-size: 27px;
     }
+
+    .img-course{
+        width: 350px;
+    }
 }
