@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Futurix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,30 +21,66 @@
 
 <body>
     <header>
-        <img src="Images/Logo.png" alt="logo" id="logo">
-        <p id="logo-text">Futurix</p>
-        <a href="www.facebook.com"><img src="Images/facebook.png" alt="facebook" class="social" id="fb" ></a>
-        <a href="www.instagram.com"><img src="Images/instagram.png" alt="instagram" class="social" id="ig"></a>
-        <a href="www.twitter.com"><img src="Images/twitter-sign.png" alt="twitter" class="social" id="tt"></a>
-        <a href="www.linkedin.com"><img src="Images/linkedin.png" alt="linkedin" class="social" id="ln"></a>
- </header>
- 
-    <main>
-        <div class="container1">
-            <h1 id="text-main">CONOSCI IL FUTURO!</h1>
-            <p id="paragraph-main1">Il compito della nostra scuola digitale è quello di <br>
-                permettere, attraverso le direttive dell'agenda 2030, <br>
-                di comprendere le problematiche del <br>
-                mondo moderno, e di studiare le possibili <br>
-                soluzioni attraverso un corso approfondito <br>
-                su tutti i 17 goals che l'ONU ha stabilitto.</p>
-            <img src="Images/Immagine.png" alt="corso" id="corso">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 mt-3 mb-3"><img src="Images/Logo.png" alt="logo" id="logo">
+                    <p id="logo-text">Futurix</p>
+                </div>
+                <div class="col-lg-4 d-flex text-end justify-content-evenly align-items-center mb-3"><a
+                        href="www.facebook.com"><img src="Images/facebook.png" alt="facebook" class="social"
+                            id="fb"></a>
+                    <a href="www.instagram.com"><img src="Images/instagram.png" alt="instagram" class="social"
+                            id="ig"></a>
+                    <a href="www.twitter.com"><img src="Images/twitter-sign.png" alt="twitter" class="social"
+                            id="tt"></a>
+                    <a href="www.linkedin.com"><img src="Images/linkedin.png" alt="linkedin" class="social" id="ln"></a>
+                </div>
+            </div>
         </div>
-        <div class="container2">
-            <p id="paragraph-main2">Accedi ora al corso partecipando alla prima lezione gratutita!</p>
-            <button id="btn">INIZIA</button>
-        </div>
-    </main>
+
+
+    </header>
+
+    <article>
+        <section class="course">
+            <div class="container">
+                <h1 id="text-main" class="text-end mb-5 me-2">CONOSCI IL FUTURO!</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-5 text-center"><img src="Images/course.png" alt="corso" class="img-course"></div>
+                    <div class="col-lg-6 mb-5">
+                        <p id="paragraph-main1">Il compito della nostra scuola digitale è quello di
+                            permettere, attraverso le direttive dell'agenda 2030,
+                            di comprendere le problematiche del
+                            mondo moderno, e di studiare le possibili
+                            soluzioni attraverso un corso approfondito
+                            su tutti i 17 goals che l'ONU ha stabilitto.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="button-course">
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <p id="paragraph-main2">Accedi ora al corso partecipando alla prima lezione gratutita!</p>
+                    </div>
+                    <div class="col-lg-2 d-flex justify-content-center align-items-center"><button type="button" class="btn btn-light btn-lg"><h1 id="button-font">INIZIA ORA!</h1></button></div>
+                </div>
+<br>
+
+            </div>
+        </section>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

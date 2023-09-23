@@ -11,59 +11,28 @@ header{
 
 #logo{
     width: 50px;
-    margin-top: 5px;
 }
 
 #logo-text{
     display: inline-block;
-    vertical-align: top;
     font-family: 'Pacifico', cursive;
 }
 
 .social{
     width: 22px;
-    position: absolute;
-    top: 20px;
-}
-
-#fb{
-   right: 170px; 
-}
-
-#ig{
-    right: 130px;  
-}
-
-#tt{
-    right: 90px; 
-}
-
-#ln{
-    right: 50px; 
-}
-
-.container1{
-    background-size: cover;
-    background-image: url(Images/top-view-world-tourism-day-concept-with-copy-space.jpg);
-    /* background-color: #d1b579; */
-    position: relative;
-    height: 500px;
-}
-
-.container2{
-    height: 300px;
-    background-color: #E25E3E;
-    position: relative;
-    /* z-index: -1; */
 }
 
 
+
+.course{
+    background: rgb(242, 128, 40);
+}
+
+.img-course{
+    width: 550px;
+}
 
 #text-main{
-    margin-top: 0;
-    position: absolute;
-    top: 34px;
-    right: 115px;
     font-size: 100px;
     font-family: 'Ubuntu', sans-serif;
     color: #ff0000;
@@ -71,41 +40,30 @@ header{
 }
 
 #paragraph-main1{
-    display: inline-block;
-    position: absolute;
-    top: 140px;
-    right: 26px;
     font-size: 42px;
-    font-family: 'Poppins', sans-serif;
+    
     line-height: 1;
     color: #FFF5E0;
 }
 
 #paragraph-main2{
-    position: absolute;
-    left: 460px;
-    top: 15px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
 }
 
-#btn{
-    position: absolute;
-    right: 480px;
-    top: 150px;
-    padding: 30px;
-    border: none;
-    width: 250px;
-    font-size: 40px;
-    background-color: antiquewhite;
-    font-weight: bolder;
-    cursor: pointer;
+.button-course{
+    background-color: #E25E3E;
 }
 
-#corso{
-    width: 400px;
-    position: relative;
-    top: 200px;
-    z-index: 1;
+#button-font{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 }
 
+
+@media only screen and (max-width: 1200px){
+    #text-main{
+        text-align: center;
+    }
+}
