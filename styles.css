@@ -117,6 +117,13 @@ hr {
     border-right: 2px solid rgb(1, 49, 88);
 }
 
+.wImg-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .p-work {
     font-family: 'Rubik', sans-serif;
     padding: 10px;
@@ -202,7 +209,11 @@ hr {
         margin-top: 5px;
     }
 
+    .img-work1{
+        width: 400px;
+    }
 
-
-
+    .p-work{
+        font-size: 15px;
+    }
 }
